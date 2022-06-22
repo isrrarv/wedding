@@ -1,13 +1,13 @@
 ---
-anchor: "Código de vestimenta"
-header: "Código de vestimenta"
+anchor: "Mesa de regalos"
+header: "Mesa de regalos"
 # subheader: "Established 2017"
 content: "Elegante"
 teamMember: [
   {
     imageFileName: "team/liverpool.jpeg",
-    header: "Camino Real Sumiya",
-    subheader: "Dirección: Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor.",
+    header: "Liverpool",
+    subheader: "Número de evento: 50940180",
     social: {
       website: "https://mesaderegalos.liverpool.com.mx/milistaderegalos/50940180",
       twitter: "https://www.google.com/maps/place/Camino+Real+Sumiya+Cuernavaca/@18.8916473,-99.1916122,15z/data=!4m2!3m1!1s0x0:0x68563ce504ce6185?sa=X&ved=2ahUKEwi-nJWQ3b34AhXAKkQIHUV3AMAQ_BJ6BAhlEAU",
@@ -16,11 +16,11 @@ teamMember: [
     }
   },
   {
-    imageFileName: "team/2.jpg",
-    header: "ASPCA",
-    subheader: "Make a difference for animals",
+    imageFileName: "team/amazon.jpeg",
+    header: "Amazon",
+    subheader: "",
     social: {
-      website: "https://secure.aspca.org/donate/donate-202011-mwdr1-t1-p1?ms=wb_top_homepage-donate&initialms=wb_top_homepage-donate&pcode=WEBMEMBER&lpcode=WEBGUARD",
+      website: "https://www.amazon.com.mx/wedding/daniela-escamilla-israel-reyes-morelos-february-2023/registry/2OAXOLPY01DSK",
       twitter: "ASPCA",
       facebook: "aspca",
       instagram: "aspca"

@@ -30,9 +30,11 @@ const TeamMember = ({
           alt={imageAlt || header || subheader}
         />
       </a>
-      <h4>{header}</h4>
+      <h4>
+        <a href={website}>{header}</a>
+      </h4>
       <p className="text-muted">{subheader}</p>
-      <div>
+      {/* <div>
         {websitePart}
         {twitterPart}
         {facebookPart}
@@ -40,8 +42,8 @@ const TeamMember = ({
         {githubPart}
         {mediumPart}
         {instagramPart}
-        <a href="tel: 55555">55555</a>
-      </div>
+        
+  </div> */}
     </div>
   );
 };
