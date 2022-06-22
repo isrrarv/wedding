@@ -40,7 +40,7 @@ timeline: [
     content: "After fifteen months of navigating a long-distance relationship, we were finally reunited when Caitlin relocated to Sleepy Hollow, NY. Without the need to travel every weekend, Justin finally had time to nerd out, brewing beer and playing D&D with friends."
   },
   {
-    imageFileName: "about/cancun.jpeg",
+    imageFileName: "about/cancun2.jpeg",
     header: "July 18, 2020",
     subheader: "Our family grows",
     content: "After relocating to the Maryland suburbs of DC, we adopted the best puppy in the universe, Tanuki, from a shelter in Caitlin's hometown of Waldorf."
