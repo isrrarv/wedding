@@ -1,0 +1,78 @@
+.image-card {
+  height: 491px;
+  .image {
+    height: 491px;
+  }
+  .no-padding {
+    padding: 0;
+  }
+  .intro-text {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    .intro-text-no-button {
+      background-color: rgba(73, 80, 87, 0.2);
+      display:inline-block;
+      border-radius: 75px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .intro-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 50px;
+      margin-bottom: 10px;
+      @include script-font;
+    }
+    .intro-lead-in {
+      font-size: 22px;
+      font-weight: 200;
+      line-height: 22px;
+      margin-top: 30px;
+      @include heading-font;
+    }
+  }
+  .date {
+    font-size: 35px;
+    font-weight: 4000;
+    @include heading-font;
+  }
+  .time {
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 115px;
+    @include heading-font;
+  }
+}
+@media (min-width: 768px) {
+  .image-card {
+    height: 759px;
+    .image {
+      height: 759px;
+    }
+    .intro-text {
+      padding-top: 100px;
+      padding-bottom: 200px;
+      .intro-heading {
+        font-size: 100px;
+        font-weight: 300;
+        line-height: 75px;
+        margin-bottom: 10px;
+        @include script-font;
+      }
+      .intro-lead-in {
+        font-size: 30px;
+        line-height: 40px;
+        @include heading-font
+      }
+      .date {
+        font-size: 45px;
+      }
+      .time {
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
