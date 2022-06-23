@@ -44,7 +44,7 @@ const Team = ({ className, frontmatter }) => {
                 <p className="large text-muted">
                   <SectionHeader header="Mujeres" />
                 </p>
-                <p className="large text-muted">Vestido 3/4</p>
+                <p className="large text-muted">Vestido largo</p>
 
                 {/* <img src={men1} width="100%" height="40%" alt="" border-radius="100px" />
                  */}
@@ -53,12 +53,13 @@ const Team = ({ className, frontmatter }) => {
                 <p className="large text-muted">
                   <SectionHeader header="Hombres" />
                 </p>
-                <p className="large text-muted">Traje</p>
+                <p className="large text-muted">Traje formal</p>
 
                 {/* <img src={men1} width="100%" height="40%" alt="" border-radius="100px" />
                  */}
               </div>
             </div>
+            <p className="large text-muted">No tenis</p>
           </Col>
           <Col lg={8} className="mx-auto text-center">
             <img
