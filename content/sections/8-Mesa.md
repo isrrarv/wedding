@@ -27,11 +27,11 @@ teamMember: [
     }
   },
   {
-    imageFileName: "team/3.png",
-    header: "DC Central Kitchen",
-    subheader: "We fight hunger differently",
+    imageFileName: "team/sears.jpg",
+    header: "Sears",
+    subheader: "Número de evento: 9509",
     social: {
-      website: "https://dccentralkitchen.org/donate/",
+      website: "https://www.sears.com.mx/Mesa-de-Regalos/9509/te-invito-a-mi-boda-israel-daniela",
       twitter: "dcck",
       facebook: "dccentralkitchen",
       instagram: "dccentralkitchen"
