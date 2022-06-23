@@ -1,6 +1,6 @@
 ---
-anchor: "Message"
-header: "Queridos familiares,"
+anchor: "Carrusel"
+header: "Hoteles"
 subheader: ""
 services: [
   {
