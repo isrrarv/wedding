@@ -6,4 +6,3 @@ export { default as Services } from "./Services";
 export { default as Team } from "./Team";
 export { default as Mesa } from "./Mesa";
 export { default as Clients } from "./Clients";
-export { default as Hoteles } from "./Hoteles";
