@@ -1,6 +1,6 @@
 ---
 anchor: "Message"
-header: "Dear Loved Ones,"
+header: "Queridos familiares,"
 subheader: ""
 services: [
   {
