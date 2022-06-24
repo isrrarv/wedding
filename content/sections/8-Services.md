@@ -1,6 +1,6 @@
 ---
-anchor: "Message"
-header: "Hola"
+anchor: "..."
+header: "..."
 subheader: ""
 Hoteles: [
  

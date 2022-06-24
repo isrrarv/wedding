@@ -200,14 +200,14 @@ const Portfolio = ({ className, frontmatter }) => {
           {/* countdownWrapper */}
           <div className="instaWrapper">
             <p className="checkOut">
-              Mientras esperas puedes vistar el
+              Mientras esperas puedes adoptar un perrito en
               <a
                 href="https://www.instagram.com/alberguecano/"
                 className="spacedCountdownLinks"
                 target="_blank"
                 rel="noreferrer"
               >
-                alberguecano en Instagram
+                alberguecano (Instagram)
               </a>
             </p>
           </div>{" "}
