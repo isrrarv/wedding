@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-import { Row } from "react-bootstrap";
+import ImageCard from "components/ImageCard";
+import { Row, Button } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import "./Services.scss";
@@ -11,12 +11,12 @@ const Services = ({ className, frontmatter }) => {
     return null;
   }
 
-  const { anchor, header: rootHeader, subheader: rootSubHeader } = frontmatter;
+  const { anchor, header: rootHeader, subheader: rootSubHeader, imageFileName } = frontmatter;
 
   return (
     <PageSection className={className} id={anchor}>
       <Row>
-        <SectionHeader header={rootHeader} subheader={rootSubHeader} />
+        <SectionHeader header={rootHeader} subheader={rootSubHeader} />{" "}
       </Row>
       <Row>
         <div className="message">
