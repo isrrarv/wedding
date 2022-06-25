@@ -71,18 +71,18 @@ const Test = ({ className, frontmatter }) => {
       </div>
   */}
 
-          <div className="slideshow-container" align="center">
-            <div className="mySlides">
+          <div className="slideshow-container">
+            <div className="mySlides" align="center">
               <div className="numbertext" />
-              <img src={lugar1} width="100%" height="40%" alt="" />
-              <p className="legend">Leugar 1 text 1 </p>
+              <img src={lugar1} width="80%" alt="" />
+              <p className="legend">Lugarr 1 </p>
               <div className="text" />
             </div>
             <div className="mySlides" align="center">
-              <div className="numbertext"> 1/3</div>
+              <div className="numbertext"> 2/3</div>
               <img src={lugar2} width="80%" alt="" />
-              <p className="legend">Leugar 2 text </p>
-              <div className="text"> Lugaaar 1 </div>
+              <p className="legend">Lugar 2 text </p>
+              <div className="text" />
             </div>
             <div className="mySlides" align="center">
               <div className="numbertext" />
@@ -94,18 +94,17 @@ const Test = ({ className, frontmatter }) => {
               &#10094;
             </a>
             <a className="next" role="button" onClick={() => plusSlides(1)} tabIndex={0}>
-              {/* {" "} */}
-              &#10095;{/* {" "} */}
+              &#10095;
             </a>
           </div>
           <div text-align="center" align="center">
             <span className="dot" role="button" onClick={() => currentSlide(1)} tabIndex={0}>
               &nbsp;
             </span>
-            <span className="dot" role="button" onClick="currentSlide(2)" aria-hidden="true">
+            <span className="dot" role="button" onClick={() => currentSlide(2)} tabIndex={0}>
               &nbsp;
             </span>
-            <span className="dot" role="button" onClick="currentSlide(3)" aria-hidden="true">
+            <span className="dot" role="button" onClick={() => currentSlide(3)} tabIndex={0}>
               &nbsp;
             </span>
           </div>
