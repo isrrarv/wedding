@@ -1,14 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 const Contact = () => {
   return <div />;
 };
 
-Contact.propTypes = {
-};
+Contact.propTypes = {};
 
-Contact.defaultProps = {
-};
+Contact.defaultProps = {};
 
 export default Contact;

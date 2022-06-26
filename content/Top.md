@@ -1,7 +1,7 @@
 ---
 header: "Dany & Isra"
-subheader: "We're getting married!"
-imageFileName: "juntos11.jpeg"
+subheader: "Nos casaremos!!"
+imageFileName: "juntos2.jpeg"
 jumpToAnchor: "Ceremony"
 jumpToAnchorText: "Watch the Ceremony"
 ---

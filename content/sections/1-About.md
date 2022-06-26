@@ -1,37 +1,37 @@
 ---
 anchor: "Nuestra Historia"
-header: "Our Story So Far"
-subheader: "Catch up as we begin the next chapter!"
+header: "Nuestra Historia"
+subheader: "¡Ponte al día mientras comenzamos el próximo capítulo!"
 timeline: [
   {
     imageFileName: "about/novios.JPG",
-    header: "Feb. 06, 2015",
+    header: "Febrero 06, 2015",
     subheader: "Empezo nuestra aventura",
-    content: "Una mañana en la escuela fue donde todo empezo con el 'Si quiero ser tu novia' "
+    content: "Fue una mañana donde todo comenzó con un 'Si quiero!!' "
   },
   {
     imageFileName: "about/chile1.JPG",
-    header: "Ago 2016 – Ene 2017",
-    subheader: "Nuestra Primer Aventura juntos",
-    content: "Por primera vez...."
+    header: "Agosto 2016 – Enero 2017",
+    subheader: "Meses despues nuestra primer gran aventura juntos comenzó",
+    content: "Vivir en Chile, donde no solo crecimos como personas si no vivimos grandes, emocionantes e increíbles momentos juntos"
   },
   {
     imageFileName: "about/argentina.jpeg",
     header: "Febrero 2016 ",
-    subheader: "Argentina",
-    content: "Argentina"
-  },
-  {
-    imageFileName: "about/graduados.JPG",
-    header: "July, 2018",
-    subheader: "....",
-    content: "...."
+    subheader: "Tuvimos la oportunida de conocer Argentina",
+    content: "Fue un viaje lleno de grandes paisajes y aventuras"
   },
   {
     imageFileName: "about/cancun2.jpeg",
-    header: "August, 2018",
-    subheader: "....",
-    content: "...."
+    header: "Diciembre, 2016",
+    subheader: "Celebramos Navidad en Peru",
+    content: "Donde vivimos grandes emociones y experiencias extremas"
+  },
+  {
+    imageFileName: "about/graduados.JPG",
+    header: "Augosto, 2019",
+    subheader: "Nos graduamos !!",
+    content: "El termino de una importante etapa de nuestras vidads"
   },
  
   {
@@ -43,14 +43,14 @@ timeline: [
     {
     imageFileName: "about/ring.jpeg",
     header: "Mayo 21, 2021",
-    subheader: "Nos compremetimos",
-    content: "...."
+    subheader: "Nos compremetimos!!",
+    content: "Y es aqui donde empieza un nuevo capitulo en nuestra historia"
   },
   {
     imageFileName: "about/9.jpg",
     imageContent: "Febrero\r\n18th\r\n2023",
     header: "Febrero 18, 2023",
-    subheader: "The big day!"
+    subheader: "El gran dia !!"
   }
 ]
 ---

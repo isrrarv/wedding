@@ -2,7 +2,7 @@
 anchor: "Ceremonia"
 header: "Ceremonia"
 subheader: "Febrero 18, 2023 4pm "
-imageFileName: "juntos11.jpeg"
+imageFileName: "juntos.jpeg"
 portfolios: [
   {
     imageFileName: "portfolio/01-thumbnail.jpg",

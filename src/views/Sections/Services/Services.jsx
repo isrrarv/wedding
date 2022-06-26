@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ImageCard from "components/ImageCard";
 import { Row, Button } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
@@ -19,16 +18,15 @@ const Services = ({ className, frontmatter }) => {
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />{" "}
       </Row>
       <Row>
-        <div className="message">
-          <p className="paragraph1">....</p> {/* paragraph1 */}
-          <p className="paragraph2">....</p> {/* paragraph2 */}
-          <p className="paragraph3">
-            We hope you can join us, down the road when we have a belated reception to celebrate
-            with you all. We&apos;ll look forward to seeing you!
+        <div className="message" align="center">
+          <p className="paragraph3" align="center">
+            Esperamos puedas acompañarnos y ser parte de este gran dia para nosotros. Nos vemos !!
           </p>{" "}
           {/* paragraph3 */}
-          <p className="paragraph4">Sending our love,</p> {/* paragraph4 */}
-          <p className="paragraph5">Dany & Isra</p> {/* paragraph5 */}
+          <p className="paragraph5" align="center">
+            Dany & Isra
+          </p>{" "}
+          {/* paragraph5 */}
         </div>{" "}
         {/* message */}
       </Row>

@@ -109,26 +109,26 @@ const Portfolio = ({ className, frontmatter }) => {
       return (
         <div>
           <div className="countdownAndMusic">
-            <div className="countdownIntro">The ceremony will begin in</div>
+            <div className="countdownIntro">La celebracion será en: </div>
             <div className="countdownWrapper">
               <div className="countdownSection">
                 <div className="countWrapper">
                   <div className="count">{days}</div>
-                  <div className="unit">days</div>
+                  <div className="unit">dias</div>
                 </div>
                 <div className="countWrapper">
                   <div className="count">{hours}</div>
-                  <div className="unit">hours</div>
+                  <div className="unit">horas</div>
                 </div>
               </div>
               <div className="countdownSection">
                 <div className="countWrapper">
                   <div className="count">{minutes}</div>
-                  <div className="unit">minutes</div>
+                  <div className="unit">minutos</div>
                 </div>
                 <div className="countWrapper">
                   <div className="count">{seconds}</div>
-                  <div className="unit">seconds</div>
+                  <div className="unit">segundos</div>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Portfolio = ({ className, frontmatter }) => {
                     variant="primary"
                     className="text-uppercase main-button join-now"
                   >
-                    <p className="buttonTitle">Join Now!</p>
+                    <p className="buttonTitle">Acompañanos!!</p>
                   </Button>{" "}
                   <br />
                 </a>
@@ -168,17 +168,17 @@ const Portfolio = ({ className, frontmatter }) => {
     return (
       <span>
         <div className="countdownAndTanuki">
-          <div className="countdownIntro">The ceremony will begin in</div> {/* countdownIntro */}
+          <div className="countdownIntro">La celebracion será en:</div> {/* countdownIntro */}
           <div className="countdownWrapper">
             <div className="countdownSection">
               <div className="countWrapper">
                 <div className="count">{days}</div> {/* count */}
-                <div className="unit">days</div> {/* unit */}
+                <div className="unit">dias</div> {/* unit */}
               </div>{" "}
               {/* countWrapper */}
               <div className="countWrapper">
                 <div className="count">{hours}</div> {/* count */}
-                <div className="unit">hours</div> {/* unit */}
+                <div className="unit">horas</div> {/* unit */}
               </div>{" "}
               {/* countWrapper */}
             </div>{" "}
@@ -186,12 +186,12 @@ const Portfolio = ({ className, frontmatter }) => {
             <div className="countdownSection">
               <div className="countWrapper">
                 <div className="count">{minutes}</div> {/* count */}
-                <div className="unit">minutes</div> {/* unit */}
+                <div className="unit">minutos</div> {/* unit */}
               </div>{" "}
               {/* countWrapper */}
               <div className="countWrapper">
                 <div className="count">{seconds}</div> {/* count */}
-                <div className="unit">seconds</div> {/* unit */}
+                <div className="unit">segundos</div> {/* unit */}
               </div>{" "}
               {/* countWrapper */}
             </div>{" "}

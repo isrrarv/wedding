@@ -6,7 +6,7 @@ import { Row, Button } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import "./Location.scss";
-import hotel from "../../../../content/assets/images/camino.png";
+import hotel1 from "../../../../content/assets/images/camino.jpeg";
 import logo from "../../../../content/assets/images/terra2.jpeg";
 import logo1 from "../../../../content/assets/images/terra3.jpeg";
 
@@ -27,6 +27,7 @@ let i = 0;
 let a = 0;
 
 let slideIndex = 1;
+
 function showSlides(n) {
   dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
@@ -104,11 +105,11 @@ const Location = ({ className, frontmatter }) => {
           <SectionHeader header="Hoteles" subheader="Imagenes" align="center" />
           <div className="hoteles" align="center" />
           </Row> */}
-        <SectionHeader header="Hoteles" subheader="Imagenes" />
+        <SectionHeader header="Hoteles" /* subheader="Imagenes" */ />
         <div className="slideshow-container">
           <div className="mySlides" align="center">
             <div className="numbertext"> 1/3</div>
-            <img src={lugar1} width="80%" alt="" />
+            <img src={hotel1} width="80%" alt="" />
             <p className="legend">Camino Real Sumiya </p>
             <div className="text" />
           </div>

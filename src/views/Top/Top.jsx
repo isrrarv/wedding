@@ -27,7 +27,7 @@ const Top = ({ frontmatter }) => {
           className="text-uppercase main-button"
           onClick={scrollToSection}
         >
-          <p className="buttonTitle">Watch the Ceremony</p>
+          <p className="buttonTitle">Ve la ceremonia en:</p>
         </Button>
       );
     }
@@ -41,7 +41,7 @@ const Top = ({ frontmatter }) => {
             className="text-uppercase main-button"
             onClick={scrollToSection}
           >
-            <p className="buttonTitle">Add to Calendar</p>
+            <p className="buttonTitle">Reserva el dia !!</p>
           </Button>
         }
       >
@@ -50,7 +50,7 @@ const Top = ({ frontmatter }) => {
             <button type="button" className="close" onClick={close}>
               &times;
             </button>
-            <div className="calendarHeader text-uppercase"> Add to Calendar </div>
+            <div className="calendarHeader text-uppercase"> Recerva el dia !!</div>
             <div className="calendarContent">
               <div className="calendarLinksWrapper">
                 <div>

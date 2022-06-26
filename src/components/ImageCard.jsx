@@ -17,7 +17,7 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extr
               <div className="intro-heading">{header}</div>
               <div className="intro-lead-in text-uppercase">{subheader}</div>
               <div className="text-uppercase">
-                <div className="date">Feb. 18, 2023</div> {/* date */}
+                <div className="date">Febrero 18, 2023</div> {/* date */}
                 <div className="time">4pm</div> {/* time */}
               </div>
             </div>{" "}
