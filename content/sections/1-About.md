@@ -34,9 +34,9 @@ timeline: [
     content: "El termino de una importante etapa de nuestras vidads"
   },
  
-  {
+ {
     imageFileName: "about/cancun2.jpeg",
-    header: "July 18, 2020",
+    header: "July, 2020",
     subheader: "....",
     content: "...."
   },

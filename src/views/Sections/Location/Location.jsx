@@ -109,7 +109,13 @@ const Location = ({ className, frontmatter }) => {
         <div className="slideshow-container">
           <div className="mySlides" align="center">
             <div className="numbertext"> 1/3</div>
-            <img src={hotel1} width="80%" alt="" />
+            <a
+              title="Camino Real"
+              href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds"
+            >
+              <img src={hotel1} width="80%" alt="" />
+            </a>
+
             <p className="legend">Camino Real Sumiya </p>
             <div className="text" />
           </div>
