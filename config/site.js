@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Dany Y Isra",
+  title: "Dany & Isra",
   keywords: ["Daniela Escamilla", "Israel Reyes"],
   description: "Wedding website of Daniela Escamilla and Israel Reyes",
   author: "all",
