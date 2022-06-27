@@ -24,7 +24,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#bc9eac",
         display: "minimal-ui",
-        icon: "content/assets/images/camino.jpeg",
+        icon: "content/assets/images/dicon.png",
       },
     },
     "gatsby-transformer-remark",
