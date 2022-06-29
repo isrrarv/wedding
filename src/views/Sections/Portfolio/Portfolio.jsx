@@ -141,7 +141,6 @@ const Portfolio = ({ className, frontmatter }) => {
                     className="text-uppercase main-button join-now"
                   >
                     <p className="buttonTitle">Acompañanos!!</p>{" "}
-                    {/* Mensaje para cuando falten 15 minutos*/}
                   </Button>{" "}
                   <br />
                 </a>

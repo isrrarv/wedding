@@ -24,7 +24,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#bc9eac",
         display: "minimal-ui",
-        icon: "content/assets/images/dicon.png",
+        icon: "content/assets/images/favicon.png",
       },
     },
     "gatsby-transformer-remark",

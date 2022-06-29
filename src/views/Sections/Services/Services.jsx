@@ -15,20 +15,22 @@ const Services = ({ className, frontmatter }) => {
   return (
     <PageSection className={className} id={anchor}>
       <Row>
-        <SectionHeader header={rootHeader} subheader={rootSubHeader} />{" "}
+        <SectionHeader header="&hearts;" subheader="&hearts;" />{" "}
       </Row>
       <Row>
-        <div className="message" align="center">
+        <SectionHeader subheader="Esperamos puedas acompañarnos y ser parte de este gran dia para nosotros. Nos vemos !!" />{" "}
+        <SectionHeader header="Dany & Isra" />
+        {/*  <div className="message" align="center">
           <p className="paragraph3" align="center">
             Esperamos puedas acompañarnos y ser parte de este gran dia para nosotros. Nos vemos !!
           </p>{" "}
-          {/* paragraph3 */}
+         
           <p className="paragraph5" align="center">
             Dany & Isra
           </p>{" "}
-          {/* paragraph5 */}
+          
         </div>{" "}
-        {/* message */}
+        */}
       </Row>
     </PageSection>
   );

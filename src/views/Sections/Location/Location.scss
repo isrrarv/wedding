@@ -13,7 +13,7 @@
     margin: 20px;
     font-size: 12pt;
     font-weight: 500;
-    color: #9ebc9f;
+    color: #9ebc9f; //color de letras Hasshtag
     border: 3pt solid #9ebc9f;
     background-color: rgba(255, 255, 255, 0);
     padding: 10px;
@@ -90,10 +90,10 @@
       align-content: stretch;
       .countWrapper {
         flex: 1;
-        border: 5px solid #dee2e6;
+        border: 5px solid #dee2e6; //contorno
         border-radius: 20px;
         background-color: #f8f9fa;
-        color: #868e96;
+        color: #868e96; // numeros
         margin: 5px;
         padding: 10px;
         width: 110px;
