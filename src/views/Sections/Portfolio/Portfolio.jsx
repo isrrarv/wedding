@@ -21,7 +21,7 @@ const Portfolio = ({ className, frontmatter }) => {
   const { anchor, header, subheader, imageFileName } = frontmatter;
 
   const copiedToClipboard = () => {
-    const alertColor = { background: "#9ebc9f", text: "white" };
+    const alertColor = { background: "#9ebc9f", text: "white" }; // color de mensaje despues de hastag
     notify.show(
       "Hashtag copied to clipboard. Take a selfie and tag us on social media!",
       "custom",
@@ -54,7 +54,7 @@ const Portfolio = ({ className, frontmatter }) => {
               target="_blank"
               rel="noreferrer"
             >
-              the Mansion at Strathmore
+              Camino Real
             </a>
           </p>
           <p>
@@ -140,7 +140,8 @@ const Portfolio = ({ className, frontmatter }) => {
                     variant="primary"
                     className="text-uppercase main-button join-now"
                   >
-                    <p className="buttonTitle">Acompañanos!!</p>
+                    <p className="buttonTitle">Acompañanos!!</p>{" "}
+                    {/* Mensaje para cuando falten 15 minutos*/}
                   </Button>{" "}
                   <br />
                 </a>
@@ -239,7 +240,7 @@ const Portfolio = ({ className, frontmatter }) => {
         </Row>
         <div className="countdownAndVideoDiv">
           <Row>
-            <Countdown date="2023-02-18T16:00:00-05:00" renderer={renderer} />
+            <Countdown date="2022-06-29T16:05:00-05:00" renderer={renderer} />
           </Row>
 
           {/* <a
