@@ -1,7 +1,7 @@
 ---
 anchor: "Nuestra Historia"
 header: "Nuestra Historia"
-subheader: "¡Ponte al día mientras comenzamos el próximo capítulo!"
+subheader: "¡Ponte al día mientras comenzamos nuestro proximo capítulo!"
 timeline: [
   {
     imageFileName: "about/novios.JPG",
@@ -15,18 +15,7 @@ timeline: [
     subheader: "Meses despues nuestra primer gran aventura juntos comenzó",
     content: "Vivir en Chile, donde no solo crecimos como personas si no vivimos grandes, emocionantes e increíbles momentos juntos"
   },
-  {
-    imageFileName: "about/argentina.jpeg",
-    header: "Febrero 2016 ",
-    subheader: "Tuvimos la oportunida de conocer Argentina",
-    content: "Fue un viaje lleno de grandes paisajes y aventuras"
-  },
-  {
-    imageFileName: "about/cancun2.jpeg",
-    header: "Diciembre, 2016",
-    subheader: "Celebramos Navidad en Peru",
-    content: "Donde vivimos grandes emociones y experiencias extremas"
-  },
+
   {
     imageFileName: "about/graduados.JPG",
     header: "Augosto, 2019",
