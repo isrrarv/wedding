@@ -33,63 +33,70 @@ const Portfolio = ({ className, frontmatter }) => {
   const Completionist = () => {
     return (
       <span className="finishedCountdown">
-        <div className="countdownIntro">The ceremony is now live!</div>
-        <div className="joinButtonWrapper">
-          <div>
-            <a href="https://youtu.be/EXOL-3JyXMI" target="_blank" rel="noreferrer">
-              <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-                <p className="buttonTitle">Join Now!</p>
-              </Button>{" "}
-              <br />
-            </a>
-          </div>
-        </div>{" "}
+        <div className="countdownIntro">
+          <b>Bienvenidos!</b>
+        </div>
         {/* joinButtonWrapper */}
         <div className="vendors">
           <p>
-            Hosted at
+            <i>
+              <b>Hosted at </b>
+            </i>
             <a
-              href="https://www.strathmore.org/mansion"
+              href="https://www.instagram.com/terraymalva/?hl=es"
               className="countdownLinks"
               target="_blank"
               rel="noreferrer"
             >
-              Camino Real
+              <i>
+                <b>Terra & Malva</b>
+              </i>
             </a>
           </p>
           <p>
-            Officiated by
+            <i>
+              <b>Officiated by</b>
+            </i>
             <a
               href="https://elleweds.wixsite.com/elleweds"
               className="countdownLinks"
               target="_blank"
               rel="noreferrer"
             >
-              Erren Lee
+              <i>
+                <b>Erren Lee</b>
+              </i>
             </a>
           </p>
           <p>
-            Music provided by
+            <i>
+              <b>Music provided by</b>
+            </i>
             <a
               href="http://cellobosco.com/"
               className="countdownLinks"
               target="_blank"
               rel="noreferrer"
             >
-              Carol Anne Bosco
+              <i>
+                <b>Carol Anne Bosco</b>
+              </i>
             </a>
           </p>
           <p>
-            Stay tuned for photos by
+            <i>
+              <b>Stay tuned for photos by</b>
+            </i>
             <a
               href="https://anaisabelphotography.com/"
               className="countdownLinks"
               target="_blank"
               rel="noreferrer"
             >
-              Ana Isabel
+              <i>
+                <b>Ana Isabel</b>
+              </i>
             </a>
-            !
           </p>
         </div>{" "}
         {/* vendors */}
@@ -239,7 +246,7 @@ const Portfolio = ({ className, frontmatter }) => {
         </Row>
         <div className="countdownAndVideoDiv">
           <Row>
-            <Countdown date="2023-02-18T16:00:00-05:00" renderer={renderer} />
+            <Countdown date="2022-06-30T12:00:00-05:00" renderer={renderer} />
           </Row>
 
           {/* <a
