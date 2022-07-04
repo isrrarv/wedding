@@ -10,7 +10,7 @@ timeline: [
     content: "Fue una mañana donde todo comenzó con un 'Si quiero!!' "
   },
   {
-    imageFileName: "about/chile1.JPG",
+    imageFileName: "about/all.JPEG",
     header: "Agosto 2016 – Enero 2017",
     subheader: "Meses despues nuestra primer gran aventura juntos comenzó",
     content: "Vivir en Chile, donde no solo crecimos como personas si no vivimos grandes, emocionantes e increíbles momentos juntos"
@@ -18,7 +18,7 @@ timeline: [
 
   {
     imageFileName: "about/graduados.JPG",
-    header: "Augosto, 2019",
+    header: "Agosto, 2018",
     subheader: "Nos graduamos !!",
     content: "El termino de una importante etapa de nuestras vidads"
   },
@@ -36,7 +36,7 @@ timeline: [
     content: "Y es aqui donde empieza un nuevo capitulo en nuestra historia"
   },
   {
-    imageFileName: "about/9.jpg",
+    imageFileName: "about/07.PNG",
     imageContent: "Febrero\r\n18th\r\n2023",
     header: "Febrero 18, 2023",
     subheader: "El gran dia !!"

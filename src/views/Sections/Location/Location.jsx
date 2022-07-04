@@ -105,7 +105,7 @@ const Location = ({ className, frontmatter }) => {
           <SectionHeader header="Hoteles" subheader="Imagenes" align="center" />
           <div className="hoteles" align="center" />
           </Row> */}
-        <SectionHeader header="Hoteles" /* subheader="Imagenes" */ />
+        <SectionHeader header="Hospedaje" /* subheader="Imagenes" */ />
         <div className="slideshow-container">
           <div className="mySlides" align="center">
             <div className="numbertext"> 1/3</div>

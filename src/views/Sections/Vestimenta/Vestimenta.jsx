@@ -7,28 +7,18 @@ import { Row, Col } from "react-bootstrap";
 import TeamMember from "components/TeamMember";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
-import "./Team.scss";
+import "./Vestimenta.scss";
 import logo from "../../../../content/assets/images/terra2.jpeg";
 import logo1 from "../../../../content/assets/images/terra3.jpeg";
 import dresscode from "../../../../content/assets/images/dresscode.png";
 import men1 from "../../../../content/assets/images/men.png";
 
-const Team = ({ className, frontmatter }) => {
+const Vestimenta = ({ className, frontmatter }) => {
   if (!frontmatter) {
     return null;
   }
 
   const { anchor, header: rootHeader, subheader: rootSubHeader, teamMember } = frontmatter;
-
-  const copiedToClipboard = () => {
-    const alertColor = { background: "#9ebc9f", text: "white" };
-    notify.show(
-      "Hashtag copied to clipboard. Take a selfie and tag us on social media!",
-      "custom",
-      5000,
-      alertColor,
-    );
-  };
 
   return (
     <div>
@@ -53,7 +43,10 @@ const Team = ({ className, frontmatter }) => {
                 <p className="large text-muted">
                   <SectionHeader header="Hombres" />
                 </p>
-                <p className="large text-muted">Traje formal</p>
+                <p className="large text-muted">
+                  Traje formal
+                  <br /> No guayaberas
+                </p>
 
                 {/* <img src={men1} width="100%" height="40%" alt="" border-radius="100px" />
                  */}
@@ -88,14 +81,14 @@ const Team = ({ className, frontmatter }) => {
   );
 };
 
-Team.propTypes = {
+Vestimenta.propTypes = {
   className: PropTypes.string,
   frontmatter: PropTypes.object,
 };
 
-Team.defaultProps = {
+Vestimenta.defaultProps = {
   className: null,
   frontmatter: null,
 };
 
-export default Team;
+export default Vestimenta;

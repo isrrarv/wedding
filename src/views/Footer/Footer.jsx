@@ -23,7 +23,7 @@ const Footer = ({ frontmatter }) => {
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            <p className="large text-muted">#DanyIsra, 2023</p>
+            <p className="large text-muted">#DanyIsra2023</p>
           </Col>
         </Row>
       </Container>
