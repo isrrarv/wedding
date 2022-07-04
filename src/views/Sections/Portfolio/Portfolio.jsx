@@ -5,12 +5,10 @@ import Countdown from "react-countdown";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Notifications, { notify } from "react-notify-toast";
 
-import ImageCard from "components/ImageCard";
 import { Row, Button } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
-import Youtube from "content/assets/images/portfolio/Youtube.png";
-import YoutubeHover from "content/assets/images/portfolio/YoutubeHover.png";
+
 import "./Portfolio.scss";
 
 const Portfolio = ({ className, frontmatter }) => {
@@ -23,7 +21,7 @@ const Portfolio = ({ className, frontmatter }) => {
   const copiedToClipboard = () => {
     const alertColor = { background: "#9ebc9f", text: "white" }; // color de mensaje despues de hastag
     notify.show(
-      "Hashtag copied to clipboard. Take a selfie and tag us on social media!",
+      "Hashtag copiado en el portapapeles. Tómate un selfie y etiquétanos en las redes sociales!",
       "custom",
       5000,
       alertColor,

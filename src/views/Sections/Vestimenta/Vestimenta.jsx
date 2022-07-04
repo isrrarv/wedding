@@ -1,16 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { CopyToClipboard } from "react-copy-to-clipboard";
+
 import Notifications, { notify } from "react-notify-toast";
 
 import { Row, Col } from "react-bootstrap";
-import TeamMember from "components/TeamMember";
+
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import "./Vestimenta.scss";
-import logo from "../../../../content/assets/images/terra2.jpeg";
-import logo1 from "../../../../content/assets/images/terra3.jpeg";
-import dresscode from "../../../../content/assets/images/dresscode.png";
+
 import men1 from "../../../../content/assets/images/men.png";
 
 const Vestimenta = ({ className, frontmatter }) => {
