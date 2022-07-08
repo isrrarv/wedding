@@ -15,7 +15,7 @@ const Services = ({ className, frontmatter }) => {
   return (
     <PageSection className={className} id={anchor}>
       <Row>
-        <SectionHeader subheader="Para nosostros es un grand dia, esperamos puedas acompañarnos y ser parte de este gran dia para nosotros. Nos vemos !!" />{" "}
+        <SectionHeader subheader="Para nosostros es un gran dia, esperamos puedas acompañarnos y ser parte de este gran dia para nosotros. Nos vemos !!" />{" "}
         <SectionHeader header="Dany & Isra" />
       </Row>
       <Row>

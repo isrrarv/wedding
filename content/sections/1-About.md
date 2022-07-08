@@ -20,14 +20,14 @@ timeline: [
     imageFileName: "about/graduados.JPG",
     header: "Agosto, 2018",
     subheader: "Nos graduamos !!",
-    content: "El termino de una importante etapa de nuestras vidads"
+    content: "El termino de una importante etapa de nuestras vidas"
   },
  
  {
     imageFileName: "about/cancun2.jpeg",
     header: "July, 2020",
     subheader: "Una aventura mas",
-    content: "Un viaje lleno de emociones y aventuras extremas donde la pasamos increible siendo nuetro primer viaje despues de estudiar"
+    content: "Un viaje lleno de emociones y aventuras extremas donde la pasamos increible"
   },
     {
     imageFileName: "about/ring.jpeg",
