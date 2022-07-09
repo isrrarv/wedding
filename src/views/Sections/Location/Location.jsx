@@ -16,20 +16,14 @@ import lugar3 from "../../../../content/assets/images/Test/lugar3.jpeg";
 
 // Funciones del carrusel
 
-const slides = document.getElementsByClassName("mySlides");
-
-/* const slides = {
-    display: "none",
-  }; */
-
-let dots;
 let i = 0;
 let a = 0;
 
-let slideIndex = 1;
+let slideIndex = 0;
+const dots = document.getElementsByClassName("dot");
+const slides = document.getElementsByClassName("mySlides");
 
 function showSlides(n) {
-  dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -42,10 +36,11 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i += 1) {
     dots[i].className = dots[i].className.replace(" active", "");
     slides[slideIndex - 1].style.display = "block";
+    a = slideIndex - 1;
     dots[a].className += " active";
   }
   /* slides[slideIndex - 1].style.display = "block"; */
-  a = slideIndex - 1;
+
   /* slides[a].style.display = "block"; 
     dots[a].className += " active"; */
 }
@@ -61,6 +56,22 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides((slideIndex = n));
 }
+
+parent.addEventListener(
+  "mousewheel",
+  function () {
+    currentSlide(1);
+  },
+  { once: true },
+);
+
+parent.addEventListener(
+  "touchmove",
+  function () {
+    currentSlide(1);
+  },
+  { once: true },
+);
 
 const Location = ({ className, frontmatter }) => {
   if (!frontmatter) {

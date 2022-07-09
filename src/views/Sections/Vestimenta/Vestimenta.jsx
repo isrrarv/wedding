@@ -32,7 +32,11 @@ const Vestimenta = ({ className, frontmatter }) => {
                 <p className="large text-muted">
                   <SectionHeader header="Mujeres" />
                 </p>
-                <p className="large text-muted">Vestido largo</p>
+                <p className="large text-muted">
+                  Vestido largo
+                  <br />
+                  &nbsp;
+                </p>
 
                 {/* <img src={men1} width="100%" height="40%" alt="" border-radius="100px" />
                  */}
@@ -50,7 +54,9 @@ const Vestimenta = ({ className, frontmatter }) => {
                  */}
               </div>
             </div>
-            <p className="large text-muted">No tenis</p>
+            <p className="large text-muted">
+              🚫 Tenis <br />
+            </p>
           </Col>
           <Col lg={8} className="mx-auto text-center">
             <img

@@ -32,6 +32,11 @@ const Services = ({ className, frontmatter }) => {
         </div>{" "}
         */}
       </Row>
+
+      <p className="large text-muted" align="center">
+        <br /> Aunque nos gustan los niños, creemos que necesitan una noche libre. Sólo adultos, por
+        favor.
+      </p>
     </PageSection>
   );
 };
