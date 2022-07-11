@@ -13,7 +13,11 @@ import logo1 from "../../../../content/assets/images/terra3.jpeg";
 import lugar1 from "../../../../content/assets/images/Test/luga1.jpeg";
 import lugar2 from "../../../../content/assets/images/Test/lugar2.jpeg";
 import lugar3 from "../../../../content/assets/images/Test/lugar3.jpeg";
-
+import tel from "../../../../content/assets/images/about/phone-call-thin.svg";
+import phone from "../../../../content/assets/images/about/phone.svg";
+import hotel from "../../../../content/assets/images/about/hotel.svg";
+import note from "../../../../content/assets/images/about/note.svg";
+import location from "../../../../content/assets/images/about/location.svg";
 // Funciones del carrusel
 
 let i = 0;
@@ -120,27 +124,82 @@ const Location = ({ className, frontmatter }) => {
         <div className="slideshow-container">
           <div className="mySlides" align="center">
             <div className="numbertext"> 1/3</div>
-            <a
-              title="Camino Real"
-              href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds"
-            >
-              <img src={hotel1} width="80%" alt="" />
-            </a>
+            <img src={hotel1} width="80%" alt="" />
+            <p className="p3">Reservaciones</p>
+            <p className="p4">
+              <img src={hotel} width="25" height="25" alt="" />
+              &nbsp;&nbsp;&nbsp;
+              <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
+                Camino Real Sumiya
+              </a>
+              <br />
+              <img src={phone} width="25" height="25" alt="" />
+              &nbsp;&nbsp;
+              <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
+              <br />
+              <img src={location} width="25" height="25" alt="" />
+              <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
+                Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
+              </a>{" "}
+              <br />
+              <img src={note} width="25" height="25" alt="" />
+              &nbsp; Convenio:123456789
+              <br />
+            </p>
 
-            <p className="legend">Camino Real Sumiya </p>
             <div className="text" />
           </div>
+
           <div className="mySlides" align="center">
             <div className="numbertext"> 2/3</div>
             <img src={lugar2} width="80%" alt="" />
-            <p className="legend">Lugar 2 </p>
+            <p className="p3">Reservaciones</p>
+            <p className="p4">
+              <img src={hotel} width="25" height="25" alt="" />
+              &nbsp;&nbsp;&nbsp;
+              <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
+                Lugar 2 de morelos
+              </a>
+              <br />
+              <img src={phone} width="25" height="25" alt="" />
+              &nbsp;&nbsp;
+              <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
+              <br />
+              <img src={location} width="25" height="25" alt="" />
+              <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
+                Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
+              </a>{" "}
+              <br />
+              <img src={note} width="25" height="25" alt="" />
+              &nbsp; Convenio:123456789
+              <br />
+            </p>
             <div className="text" />
           </div>
           <div className="mySlides" align="center">
             <div className="numbertext">3/3</div>
             <img src={lugar3} width="80%" alt="" />
-            <p className="legend">Lugar 3 </p>
-            <div className="text" />
+            <p className="p3">Reservaciones</p>
+            <p className="p4">
+              <img src={hotel} width="25" height="25" alt="" />
+              &nbsp;&nbsp;&nbsp;
+              <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
+                Lugar 3 de morelos
+              </a>
+              <br />
+              <img src={phone} width="25" height="25" alt="" />
+              &nbsp;&nbsp;
+              <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
+              <br />
+              <img src={location} width="25" height="25" alt="" />
+              <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
+                Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
+              </a>{" "}
+              <br />
+              <img src={note} width="25" height="25" alt="" />
+              &nbsp; Convenio:123456789
+              <br />
+            </p>
           </div>
           <a className="prev" role="button" onClick={() => plusSlides(-1)} tabIndex={0}>
             &#10094;
