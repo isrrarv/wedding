@@ -127,24 +127,26 @@ const Location = ({ className, frontmatter }) => {
             <img src={hotel1} width="80%" alt="" />
             <p className="p3">Reservaciones</p>
             <p className="p4">
-              <img src={hotel} width="25" height="25" alt="" />
-              &nbsp;&nbsp;&nbsp;
-              <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
-                Camino Real Sumiya
-              </a>
-              <br />
-              <img src={phone} width="25" height="25" alt="" />
-              &nbsp;&nbsp;
-              <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
-              <br />
-              <img src={location} width="25" height="25" alt="" />
-              <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
-                Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
-              </a>{" "}
-              <br />
-              <img src={note} width="25" height="25" alt="" />
-              &nbsp; Convenio:123456789
-              <br />
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
+                  Camino Real Sumiya
+                </a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
+                  Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
+                </a>{" "}
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:123456789
+                <br />
+              </b>
             </p>
 
             <div className="text" />
@@ -155,24 +157,26 @@ const Location = ({ className, frontmatter }) => {
             <img src={lugar2} width="80%" alt="" />
             <p className="p3">Reservaciones</p>
             <p className="p4">
-              <img src={hotel} width="25" height="25" alt="" />
-              &nbsp;&nbsp;&nbsp;
-              <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
-                Lugar 2 de morelos
-              </a>
-              <br />
-              <img src={phone} width="25" height="25" alt="" />
-              &nbsp;&nbsp;
-              <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
-              <br />
-              <img src={location} width="25" height="25" alt="" />
-              <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
-                Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
-              </a>{" "}
-              <br />
-              <img src={note} width="25" height="25" alt="" />
-              &nbsp; Convenio:123456789
-              <br />
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
+                  Lugar 2 de morelos
+                </a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
+                  Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
+                </a>{" "}
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:123456789
+                <br />
+              </b>
             </p>
             <div className="text" />
           </div>
@@ -181,24 +185,26 @@ const Location = ({ className, frontmatter }) => {
             <img src={lugar3} width="80%" alt="" />
             <p className="p3">Reservaciones</p>
             <p className="p4">
-              <img src={hotel} width="25" height="25" alt="" />
-              &nbsp;&nbsp;&nbsp;
-              <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
-                Lugar 3 de morelos
-              </a>
-              <br />
-              <img src={phone} width="25" height="25" alt="" />
-              &nbsp;&nbsp;
-              <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
-              <br />
-              <img src={location} width="25" height="25" alt="" />
-              <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
-                Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
-              </a>{" "}
-              <br />
-              <img src={note} width="25" height="25" alt="" />
-              &nbsp; Convenio:123456789
-              <br />
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
+                  Lugar 3 de morelos
+                </a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
+                  Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
+                </a>{" "}
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:123456789
+                <br />
+              </b>
             </p>
           </div>
           <a className="prev" role="button" onClick={() => plusSlides(-1)} tabIndex={0}>
