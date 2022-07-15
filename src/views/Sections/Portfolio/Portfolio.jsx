@@ -153,7 +153,7 @@ const Portfolio = ({ className, frontmatter }) => {
                 rel="noreferrer"
               >
                 <i>
-                  <b>alberguecano (Instagram)</b>
+                  <b>alberguecano 🐶</b>
                 </i>
               </a>
             </p>
