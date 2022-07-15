@@ -138,13 +138,13 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
                 <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:123456789
+                <br />
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
                   Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
                 </a>{" "}
-                <br />
-                <img src={note} width="25" height="25" alt="" />
-                &nbsp; Convenio:123456789
                 <br />
               </b>
             </p>
@@ -168,14 +168,13 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
                 <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:123456789
+                <br />
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
                   Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
                 </a>{" "}
-                <br />
-                <img src={note} width="25" height="25" alt="" />
-                &nbsp; Convenio:123456789
-                <br />
               </b>
             </p>
             <div className="text" />
@@ -196,14 +195,13 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
                 <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:123456789
+                <br />
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
                   Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
                 </a>{" "}
-                <br />
-                <img src={note} width="25" height="25" alt="" />
-                &nbsp; Convenio:123456789
-                <br />
               </b>
             </p>
           </div>
