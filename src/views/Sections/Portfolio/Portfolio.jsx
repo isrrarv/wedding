@@ -8,7 +8,7 @@ import Notifications, { notify } from "react-notify-toast";
 import { Row, Button } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
-
+import instagram from "../../../../content/assets/images/Test/instagram.svg";
 import "./Portfolio.scss";
 
 const Portfolio = ({ className, frontmatter }) => {
@@ -153,7 +153,9 @@ const Portfolio = ({ className, frontmatter }) => {
                 rel="noreferrer"
               >
                 <i>
-                  <b>alberguecano 🐶</b>
+                  <b>
+                    alberguecano <img src={instagram} width="25" height="25" alt="" />
+                  </b>
                 </i>
               </a>
             </p>
