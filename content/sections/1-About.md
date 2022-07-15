@@ -25,7 +25,7 @@ timeline: [
  
  {
     imageFileName: "about/cancun2.jpeg",
-    header: "July, 2020",
+    header: "Julio, 2020",
     subheader: "Una aventura mas",
     content: "Un viaje lleno de emociones y aventuras extremas donde la pasamos increible"
   },
