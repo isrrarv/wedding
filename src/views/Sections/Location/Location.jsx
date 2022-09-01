@@ -10,8 +10,8 @@ import hotel1 from "../../../../content/assets/images/camino.jpeg";
 import logo from "../../../../content/assets/images/terra2.jpeg";
 import logo1 from "../../../../content/assets/images/terra3.jpeg";
 import colibri from "../../../../content/assets/images/Test/villa_1.jpeg";
-
-import lugar3 from "../../../../content/assets/images/Test/lugar3.jpeg";
+import lugar3 from "../../../../content/assets/images/Test/misionsol.jpeg";
+import lugar4 from "../../../../content/assets/images/Test/hacienda.jpeg";
 import phone from "../../../../content/assets/images/about/phone.svg";
 import hotel from "../../../../content/assets/images/about/hotel.svg";
 import note from "../../../../content/assets/images/about/note.svg";
@@ -137,7 +137,7 @@ const Location = ({ className, frontmatter }) => {
                 <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
                 <br />
                 <img src={note} width="25" height="25" alt="" />
-                &nbsp; &nbsp;Convenio:123456789
+                &nbsp; &nbsp;Convenio: Por confirmar!
                 <br />
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
@@ -165,7 +165,7 @@ const Location = ({ className, frontmatter }) => {
                 <a href="tel:+52 777321 23 71"> +52 (777) 3122 371</a>
                 <br />
                 <img src={note} width="25" height="25" alt="" />
-                &nbsp; Convenio:123456789
+                &nbsp; Convenio: Por confirmar!
                 <br />
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://goo.gl/maps/GDtSkgEpx8rBNdJ18">
@@ -183,20 +183,44 @@ const Location = ({ className, frontmatter }) => {
               <b>
                 <img src={hotel} width="25" height="25" alt="" />
                 &nbsp;&nbsp;&nbsp;
-                <a href="https://www.caminoreal.com/en/caminoreal/camino-real-sumiya-cuernavaca?gclid=CjwKCAjwh-CVBhB8EiwAjFEPGbRH76I4eCTVO7sjyJPtROjk0BXK5l7AA7tfTiRIkhyCNyBNT4EJ4hoCpIAQAvD_BwE&gclsrc=aw.ds">
-                  Lugar 3 de morelos
+                <a href="https://www.misiondelsol.com/">Misión del Sol</a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 7773210999"> +52 (777) 3210 999</a>
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:Por confirmar!
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://goo.gl/maps/R9boWSpcZuxB25HU6">
+                  Gral. Diego Díaz González Mtz. 31, Jose G. Parres, 62550 Jiutepec, Mor.
+                </a>{" "}
+              </b>
+            </p>
+          </div>
+          <div className="mySlides" align="center">
+            <div className="numbertext">3/3</div>
+            <img src={lugar4} width="80%" alt="" />
+            <p className="p3">Reservaciones</p>
+            <p className="p5">
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.hotelhaciendadecortes.com.mx/">
+                  Hotel & Spa Hacienda de Cortés
                 </a>
                 <br />
                 <img src={phone} width="25" height="25" alt="" />
                 &nbsp;&nbsp;
-                <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
+                <a href="tel:+52 7773158844"> +52 (777) 3158 844</a>
                 <br />
                 <img src={note} width="25" height="25" alt="" />
-                &nbsp; Convenio:123456789
+                &nbsp; Convenio: Por confirmar!
                 <br />
                 <img src={location} width="25" height="25" alt="" />
-                <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
-                  Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
+                <a href="https://g.page/HaciendaDeCortes?share">
+                  Plaza Kennedy 90, Atlacomulco, 62560 Jiutepec, Mor.
                 </a>{" "}
               </b>
             </p>
@@ -216,6 +240,9 @@ const Location = ({ className, frontmatter }) => {
             &nbsp;
           </span>
           <span className="dot" role="button" onClick={() => currentSlide(3)} tabIndex={0}>
+            &nbsp;
+          </span>
+          <span className="dot" role="button" onClick={() => currentSlide(4)} tabIndex={0}>
             &nbsp;
           </span>
         </div>
