@@ -22,14 +22,6 @@ teamMember: [
       
     }
   },
-  {
-    imageFileName: "team/sears.jpg",
-    header: "Sears",
-    subheader: "Número de evento: 9509",
-    social: {
-      website: "https://www.sears.com.mx/Mesa-de-Regalos/9509/te-invito-a-mi-boda-israel-daniela",
-     
-    }
-  },
+  
 ]
 ---

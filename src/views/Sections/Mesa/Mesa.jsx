@@ -63,7 +63,7 @@ const Mesa = ({ className, frontmatter }) => {
 
         <Row>
           {teamMember.map(({ header, ...tmProps }) => (
-            <Col sm={4} key={header}>
+            <Col sm={6} key={header}>
               <TeamMember header={header} {...tmProps} />
             </Col>
           ))}
