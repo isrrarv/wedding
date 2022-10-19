@@ -16,6 +16,11 @@ import phone from "../../../../content/assets/images/about/phone.svg";
 import hotel from "../../../../content/assets/images/about/hotel.svg";
 import note from "../../../../content/assets/images/about/note.svg";
 import location from "../../../../content/assets/images/about/location.svg";
+import mg from "../../../../content/assets/images/about/mg.jpeg";
+import one from "../../../../content/assets/images/about/one.jpeg";
+import anticavilla from "../../../../content/assets/images/about/anticavilla.jpeg";
+import mananitas from "../../../../content/assets/images/about/mananitas.jpeg";
+import hq from "../../../../content/assets/images/about/hq.jpeg";
 // Funciones del carrusel
 
 let i = 0;
@@ -225,6 +230,133 @@ const Location = ({ className, frontmatter }) => {
               </b>
             </p>
           </div>
+
+          <div className="mySlides" align="center">
+            <div className="numbertext">3/3</div>
+            <img src={hq} width="80%" alt="" />
+            <p className="p3">Reservaciones</p>
+            <p className="p5">
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://hosterialasquintas.com.mx/">Hosteleria las quintas</a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 777 318 3949"> +52 (777) 318 3949</a>
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:Por confirmar!
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://www.google.com/maps?ll=18.919265,-99.218041&z=13&t=m&hl=es-419&gl=MX&mapclient=embed&cid=2655950728022435030">
+                  Blvd. Gustavo Díaz Ordaz 9, Cantarranas, 62448 Cuernavaca, Mor.
+                </a>{" "}
+              </b>
+            </p>
+          </div>
+
+          <div className="mySlides" align="center">
+            <div className="numbertext">3/3</div>
+            <img src={one} width="80%" alt="" />
+            <p className="p3">Reservaciones</p>
+            <p className="p5">
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.onehoteles.com/">ONE</a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 443 310 81 37"> +52 (443) 310 81 37</a>
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:Por confirmar!
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://goo.gl/maps/aQxAYUvWC3adrAo18">
+                  BCarretera México Acapulco KM 88.6 s/n, Delicias, 62330 Morelos, Cuernavaca,
+                  Mexico
+                </a>{" "}
+              </b>
+            </p>
+          </div>
+
+          <div className="mySlides" align="center">
+            <div className="numbertext">3/3</div>
+            <img src={mg} width="80%" alt="" />
+            <p className="p3">Reservaciones</p>
+            <p className="p5">
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.hotelsone.com/cuernavaca-hotels-mx/">Mision Grand</a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 777 133 2855"> +52 777 133 2855</a>
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:Por confirmar!
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://g.page/HotelMisionGrandCuernavaca?share">
+                  C. Galeana 29, Acapantzingo, 62440 Cuernavaca, Mor.
+                </a>{" "}
+              </b>
+            </p>
+          </div>
+
+          <div className="mySlides" align="center">
+            <div className="numbertext">3/3</div>
+            <img src={anticavilla} width="80%" alt="" />
+            <p className="p3">Reservaciones</p>
+            <p className="p5">
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.villabejar.mx/">Anticavilla Hotel & SPA</a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 734 347 0620"> +52 734 347 0620</a>
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:Por confirmar!
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://g.page/anticavillahoteloficial?share">
+                  Río Amacuzac No.10, Vista Hermosa, 62290 Cuernavaca, Mor.
+                </a>{" "}
+              </b>
+            </p>
+          </div>
+
+          <div className="mySlides" align="center">
+            <div className="numbertext">3/3</div>
+            <img src={mananitas} width="80%" alt="" />
+            <p className="p3">Reservaciones</p>
+            <p className="p5">
+              <b>
+                <img src={hotel} width="25" height="25" alt="" />
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://lasmananitas.com.mx">Las Mañanitas</a>
+                <br />
+                <img src={phone} width="25" height="25" alt="" />
+                &nbsp;&nbsp;
+                <a href="tel:+52 777 362 0000"> +52 777 362 0000</a>
+                <br />
+                <img src={note} width="25" height="25" alt="" />
+                &nbsp; Convenio:Por confirmar!
+                <br />
+                <img src={location} width="25" height="25" alt="" />
+                <a href="https://g.page/hotellasmananitas?share">
+                  Ricardo Linares 107, Cuernavaca Centro, Centro, 62000 Cuernavaca, Mor.
+                </a>{" "}
+              </b>
+            </p>
+          </div>
+
           <a className="prev" role="button" onClick={() => plusSlides(-1)} tabIndex={0}>
             &#10094;
           </a>
@@ -243,6 +375,21 @@ const Location = ({ className, frontmatter }) => {
             &nbsp;
           </span>
           <span className="dot" role="button" onClick={() => currentSlide(4)} tabIndex={0}>
+            &nbsp;
+          </span>
+          <span className="dot" role="button" onClick={() => currentSlide(5)} tabIndex={0}>
+            &nbsp;
+          </span>
+          <span className="dot" role="button" onClick={() => currentSlide(6)} tabIndex={0}>
+            &nbsp;
+          </span>
+          <span className="dot" role="button" onClick={() => currentSlide(7)} tabIndex={0}>
+            &nbsp;
+          </span>
+          <span className="dot" role="button" onClick={() => currentSlide(8)} tabIndex={0}>
+            &nbsp;
+          </span>
+          <span className="dot" role="button" onClick={() => currentSlide(9)} tabIndex={0}>
             &nbsp;
           </span>
         </div>
