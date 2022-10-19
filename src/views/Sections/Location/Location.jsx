@@ -239,7 +239,7 @@ const Location = ({ className, frontmatter }) => {
               <b>
                 <img src={hotel} width="25" height="25" alt="" />
                 &nbsp;&nbsp;&nbsp;
-                <a href="https://hosterialasquintas.com.mx/">Hosteleria las quintasssssss</a>
+                <a href="https://hosterialasquintas.com.mx/">Hosteleria las quintas</a>
                 <br />
                 <img src={phone} width="25" height="25" alt="" />
                 &nbsp;&nbsp;
