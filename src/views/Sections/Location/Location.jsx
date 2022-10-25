@@ -21,6 +21,8 @@ import one from "../../../../content/assets/images/about/one.jpeg";
 import anticavilla from "../../../../content/assets/images/about/anticavilla.jpeg";
 import mananitas from "../../../../content/assets/images/about/mananitas.jpeg";
 import hq from "../../../../content/assets/images/about/hq.jpeg";
+import airbnb from "../../../../content/assets/images/about/airbnb.png";
+import url from "../../../../content/assets/images/about/www.svg";
 // Funciones del carrusel
 
 let i = 0;
@@ -141,9 +143,9 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;
                 <a href="tel:+52 7773299888"> +52 (885) 2265 203</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; &nbsp;Convenio: Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/Camino-Real-Sumiya-Cuernavaca?share">
                   Calle Antiguo Camino a Jiutepec S/N, Jose G. Parres, 62564 Jiutepec, Mor
@@ -169,9 +171,9 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 777321 23 71"> +52 (777) 3122 371</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio: Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://goo.gl/maps/GDtSkgEpx8rBNdJ18">
                   Gral. Diego Díaz González Mtz. 19, Jose G. Parres, 62564 Jiutepec, Mor
@@ -194,9 +196,9 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 7773210999"> +52 (777) 3210 999</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio:Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://goo.gl/maps/R9boWSpcZuxB25HU6">
                   Gral. Diego Díaz González Mtz. 31, Jose G. Parres, 62550 Jiutepec, Mor.
@@ -220,9 +222,9 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 7773158844"> +52 (777) 3158 844</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio: Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/HaciendaDeCortes?share">
                   Plaza Kennedy 90, Atlacomulco, 62560 Jiutepec, Mor.
@@ -245,9 +247,9 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 777 318 3949"> +52 (777) 318 3949</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio:Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://www.google.com/maps?ll=18.919265,-99.218041&z=13&t=m&hl=es-419&gl=MX&mapclient=embed&cid=2655950728022435030">
                   Blvd. Gustavo Díaz Ordaz 9, Cantarranas, 62448 Cuernavaca, Mor.
@@ -270,13 +272,12 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 443 310 81 37"> +52 (443) 310 81 37</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio:Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://goo.gl/maps/aQxAYUvWC3adrAo18">
-                  BCarretera México Acapulco KM 88.6 s/n, Delicias, 62330 Morelos, Cuernavaca,
-                  Mexico
+                  Carretera México Acapulco KM 88.6 s/n, Delicias, 62330 Morelos, Cuernavaca, Mexico
                 </a>{" "}
               </b>
             </p>
@@ -296,9 +297,9 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 777 133 2855"> +52 777 133 2855</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio:Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/HotelMisionGrandCuernavaca?share">
                   C. Galeana 29, Acapantzingo, 62440 Cuernavaca, Mor.
@@ -321,9 +322,9 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 734 347 0620"> +52 734 347 0620</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio:Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/anticavillahoteloficial?share">
                   Río Amacuzac No.10, Vista Hermosa, 62290 Cuernavaca, Mor.
@@ -346,14 +347,26 @@ const Location = ({ className, frontmatter }) => {
                 &nbsp;&nbsp;
                 <a href="tel:+52 777 362 0000"> +52 777 362 0000</a>
                 <br />
-                <img src={note} width="25" height="25" alt="" />
+                {/* <img src={note} width="25" height="25" alt="" />
                 &nbsp; Convenio:Por confirmar!
-                <br />
+                <br /> */}
                 <img src={location} width="25" height="25" alt="" />
                 <a href="https://g.page/hotellasmananitas?share">
                   Ricardo Linares 107, Cuernavaca Centro, Centro, 62000 Cuernavaca, Mor.
                 </a>{" "}
               </b>
+            </p>
+          </div>
+
+          <div className="mySlides" align="center">
+            <div className="numbertext">3/3</div>
+            <img src={airbnb} width="20%" alt="" />
+            <p className="p3">
+              <img src={url} width="25" height="25" alt="" />
+              <br />
+              <a href="https://www.airbnb.mx/s/morelos/homes?adults=2&tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&query=Morelos&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=5&ne_lat=18.898347948012788&ne_lng=-99.18616025338008&sw_lat=18.884359981645957&sw_lng=-99.201094793175&zoom=16&search_by_map=true&search_type=user_map_move">
+                AirBnb
+              </a>
             </p>
           </div>
 
@@ -390,6 +403,9 @@ const Location = ({ className, frontmatter }) => {
             &nbsp;
           </span>
           <span className="dot" role="button" onClick={() => currentSlide(9)} tabIndex={0}>
+            &nbsp;
+          </span>
+          <span className="dot" role="button" onClick={() => currentSlide(10)} tabIndex={0}>
             &nbsp;
           </span>
         </div>
