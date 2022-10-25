@@ -8,6 +8,8 @@ import { Row, Col } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import "./Vestimenta.scss";
+import colors from "../../../../content/assets/images/color.png";
+import no from "../../../../content/assets/images/forbidden.svg";
 
 import men1 from "../../../../content/assets/images/men.png";
 
@@ -26,7 +28,7 @@ const Vestimenta = ({ className, frontmatter }) => {
           <SectionHeader header={rootHeader} subheader={rootSubHeader} />
         </Row>
         <Row className="charities">
-          <Col lg={8} className="mx-auto text-center">
+          <Col lg={5} className="mx-auto text-center">
             <div className="terra-location">
               <div align="center">
                 <p className="large text-muted">
@@ -35,6 +37,8 @@ const Vestimenta = ({ className, frontmatter }) => {
                 <p className="large text-muted">
                   Vestido largo
                   <br />
+                  <img src={no} width="10%" alt="" border-radius="100px" />
+                  <img src={colors} width="30%" alt="" border-radius="100px" />
                   &nbsp;
                 </p>
 
