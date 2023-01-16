@@ -37,9 +37,11 @@ const Vestimenta = ({ className, frontmatter }) => {
                 <p className="large text-muted">
                   Vestido largo
                   <br />
-                  <img src={no} width="10%" alt="" border-radius="100px" />
-                  <img src={colors} width="30%" alt="" border-radius="100px" />
-                  &nbsp;
+                  <p className="large text-muted">
+                    🚫 &nbsp;
+                    <img src={colors} width="30%" alt="" border-radius="100px" />
+                    &nbsp;
+                  </p>
                 </p>
 
                 {/* <img src={men1} width="100%" height="40%" alt="" border-radius="100px" />
@@ -51,7 +53,7 @@ const Vestimenta = ({ className, frontmatter }) => {
                 </p>
                 <p className="large text-muted">
                   Traje formal
-                  <br /> No guayaberas
+                  <br /> 🚫 guayaberas
                 </p>
 
                 {/* <img src={men1} width="100%" height="40%" alt="" border-radius="100px" />
