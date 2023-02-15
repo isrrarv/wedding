@@ -34,6 +34,23 @@ const Portfolio = ({ className, frontmatter }) => {
         <div className="countdownIntro">
           <b>Bienvenidos!</b>
         </div>
+        <div className="instaWrapper">
+          <p className="checkOut">
+            Usa nuestro filtro y etiquetanos con nuestro hashtag
+            <a
+              href="https://www.instagram.com/ar/941363443710346/"
+              className="spacedCountdownLinks"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i>
+                <b>
+                  click aqui <img src={instagram} width="25" height="25" alt="" />
+                </b>
+              </i>
+            </a>
+          </p>
+        </div>{" "}
         {/* joinButtonWrapper */}
         <div className="vendors">
           <p>
@@ -51,48 +68,34 @@ const Portfolio = ({ className, frontmatter }) => {
               </i>
             </a>
           </p>
+
           <p>
             <i>
-              <b>Officiated by</b>
+              <b>Musica por:</b>
             </i>
             <a
-              href="https://elleweds.wixsite.com/elleweds"
+              href="https://www.bodas.com.mx/musica-para-bodas/live-djs--e117153"
               className="countdownLinks"
               target="_blank"
               rel="noreferrer"
             >
               <i>
-                <b>Erren Lee</b>
+                <b>Live Djs</b>
               </i>
             </a>
           </p>
           <p>
             <i>
-              <b>Music provided by</b>
+              <b>No te pierdas las fotos de</b>
             </i>
             <a
-              href="http://cellobosco.com/"
+              href="https://instagram.com/claudio.piedrola?igshid=YmMyMTA2M2Y="
               className="countdownLinks"
               target="_blank"
               rel="noreferrer"
             >
               <i>
-                <b>Carol Anne Bosco</b>
-              </i>
-            </a>
-          </p>
-          <p>
-            <i>
-              <b>Stay tuned for photos by</b>
-            </i>
-            <a
-              href="https://anaisabelphotography.com/"
-              className="countdownLinks"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i>
-                <b>Ana Isabel</b>
+                <b>Claudio Piedrola</b>
               </i>
             </a>
           </p>
@@ -145,16 +148,16 @@ const Portfolio = ({ className, frontmatter }) => {
           {/* countdownWrapper */}
           <div className="instaWrapper">
             <p className="checkOut">
-              Mientras esperas puedes adoptar un perrito en
+              PUEDES USAR NUESTRO FILTRO Y HASTAG
               <a
-                href="https://www.instagram.com/alberguecano/"
+                href="https://www.instagram.com/ar/941363443710346/"
                 className="spacedCountdownLinks"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i>
                   <b>
-                    alberguecano <img src={instagram} width="25" height="25" alt="" />
+                    click aqui <img src={instagram} width="25" height="25" alt="" />
                   </b>
                 </i>
               </a>
@@ -188,7 +191,7 @@ const Portfolio = ({ className, frontmatter }) => {
         </Row>
         <div className="countdownAndVideoDiv">
           <Row>
-            <Countdown date="2023-02-18T16:00:00-05:00" renderer={renderer} />
+            <Countdown date="2023-02-14T23:57:00-05:00" renderer={renderer} />
           </Row>
         </div>{" "}
         {/* countdownAndVideoDiv */}
