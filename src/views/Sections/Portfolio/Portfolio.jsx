@@ -148,7 +148,7 @@ const Portfolio = ({ className, frontmatter }) => {
           {/* countdownWrapper */}
           <div className="instaWrapper">
             <p className="checkOut">
-              PUEDES USAR NUESTRO FILTRO Y HASHTAG
+              USA NUESTRO FILTRO Y HASHTAG
               <a
                 href="https://www.instagram.com/ar/941363443710346/"
                 className="spacedCountdownLinks"
